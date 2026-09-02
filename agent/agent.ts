@@ -1,5 +1,6 @@
 import { defineAgent } from "eve";
+import { novaModel } from "./lib/models.js";
 
 export default defineAgent({
-  model: "openai/gpt-5.6-luna-fast",
+  model: novaModel,
 });
